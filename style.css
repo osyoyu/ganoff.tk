@@ -1,0 +1,119 @@
+body {
+  width: 830px;
+  height: 1000px;
+  background: url(img/bg.png);
+  background-repeat: no-repeat;
+  background-size: 568px;
+}
+
+#start {
+  width: 830px;
+  height: 1000px;
+  background: url(img/start.png);
+  background-repeat: no-repeat;
+  background-size: 568px;
+  z-index: 10005;
+}
+
+#wrapper {
+  width: 830px;
+  height: 986px;
+  z-index: 10000;
+  overflow: hidden;
+}
+
+#timer {
+  width: 405px;
+  height: 180px; 
+  padding-top: 30px;
+  position: absolute;
+  top: 350px;
+  left: 170px;
+  z-index: 9999;
+  color: white;
+  text-align: center;
+  text-shadow:0px 3px 1px red,0px 2px 1px red,1px 2px 1px red,2px 2px 1px red,2px 1px 1px red,2px 0px 1px red,3px 0px 1px red,2px -1px 1px red,2px -2px 1px red,2px -3px 1px red,1px -3px 1px red,0px -3px 1px red,-1px -3px 1px red,-2px -3px 1px red,-3px -3px 1px red,-3px -2px 1px red,-3px -1px 1px red,-3px 0px 1px red,-3px 1px 1px red,-3px 2px 1px red,-2px 2px 1px red,-1px 2px 1px red;
+  font-size: 96px;
+  font-family: aladin, sans-serif;
+  background: url(img/shuchu3.png);
+  background-position: -20px 0;
+  background-repeat: no-repeat;
+  background-size: 405px 170px;
+}
+
+.bs {
+  width: 190px;
+  height: 107px;
+  background: url(img/bf.png);
+  position: absolute;
+}
+
+#score {
+  display: none;
+  width: 830px;
+  position: absolute;
+  top: 250px;
+  font-family: aclonica, sans-serif;
+  font-size: 200px;
+  text-align: center;
+  color: white;
+  text-shadow:0px 7px 1px red,0px 6px 1px red,1px 6px 1px red,2px 6px 1px red,3px 6px 1px red,4px 5px 1px red,4px 4px 1px red,5px 4px 1px red,6px 3px 1px red,6px 2px 1px red,6px 1px 1px red,6px 0px 1px red,7px 0px 1px red,6px -1px 1px red,6px -2px 1px red,6px -3px 1px red,6px -4px 1px red,5px -5px 1px red,4px -5px 1px red,4px -6px 1px red,3px -7px 1px red,2px -7px 1px red,1px -7px 1px red,0px -7px 1px red,-1px -7px 1px red,-2px -7px 1px red,-3px -7px 1px red,-4px -7px 1px red,-5px -6px 1px red,-5px -5px 1px red,-6px -5px 1px red,-7px -4px 1px red,-7px -3px 1px red,-7px -2px 1px red,-7px -1px 1px red,-7px 0px 1px red,-7px 1px 1px red,-7px 2px 1px red,-7px 3px 1px red,-6px 4px 1px red,-5px 4px 1px red,-5px 5px 1px red,-4px 6px 1px red,-3px 6px 1px red,-2px 6px 1px red,-1px 6px 1px red;
+}
+
+#poyo {
+  width: 600px;
+  height: 60px;
+  font-size: 55px;
+  position: absolute;
+  border: solid red 10px;
+  top: 470px;
+  left: 100px;
+  text-align: center;
+}
+
+#okuru {
+  position: absolute;
+  height: 60px;
+  width: 400px;
+  top: 560px;
+  left: 100px;
+  font-size: 45px;
+}
+
+#nosend {
+  position: absolute;
+  height: 60px;
+  width: 200px;
+  top: 560px;
+  left: 510px;
+  font-size: 45px;
+}
+
+#pmannet {
+  width: 830px;
+  height: 1000px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(img/clear.png);
+  background-size: 830px 1000px;
+  z-index: 15000;
+}
+
+#tweeter {
+  display: none;
+  width: 620px;
+  height: 150px;
+  background: #55ACEE;
+  position: absolute;
+  top: 630px;
+  left: 100px;
+}
+
+#ranking {
+  position: absolute;
+  top: 30px;
+  left: 850px;
+  width: 600px;
+  height: 800px;
+}
