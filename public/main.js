@@ -46,7 +46,8 @@ function countDown() {
     $("#tweet-button").attr("href", "http://twitter.com/share?url=http://ganoff.tk/&text=私は" + bs_count + "杯のビーフストロガノフで筑波大学を制圧しました！ ビーフストロガノフは松美池前、春日ビーフストロガノフ！&via=beefstr_kasuga");
     document.querySelector('#okuru').addEventListener('click', function() {
       $.ajax({
-        url: '/results.php',
+        url: '/register',
+        method: 'post',
         data: {name: $("#poyo").val(), score: bs_count}
       }).always(function() {
         $("#score").hide();

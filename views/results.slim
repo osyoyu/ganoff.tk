@@ -1,0 +1,11 @@
+- unless @scores.empty?
+  table
+    thead
+      tr
+        td おなまえ
+        td スコア
+
+    - @scores.each do |score|
+      tr
+        td.name = score.name
+        td.score = score.score
