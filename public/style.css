@@ -4,9 +4,6 @@ body {
   background: url(img/bg.png);
   background-repeat: no-repeat;
   background-size: 568px;
-
-  margin: 0;
-  padding: 0;
 }
 
 #start {
@@ -119,30 +116,4 @@ body {
   left: 850px;
   width: 600px;
   height: 800px;
-}
-
-#banner {
-  width: 100%;
-  height: 100px;
-  background: #5B5300;
-
-  position: absolute;
-  bottom: 0;
-
-  color: #FFF;
-  font-size: 26px;
-  font-family: 'Bree Serif';
-
-  line-height: 100px;
-  text-align: center;
-  vertical-align: middle;
-
-  box-shadow: 0 2px 5px #000 inset;
-
-  transition: background 0.5s ease;
-}
-
-#banner:hover {
-  background-color: #562E00;
-  transition: background 0.5s ease;
 }
