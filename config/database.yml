@@ -3,5 +3,5 @@ development:
   database: db.sqlite3
 
 production:
-  adapter: mysql2
-  url: <%= ENV['MARIADB_URL'] %>
+  adapter: sqlite3
+  database: data/db-production.sqlite3
