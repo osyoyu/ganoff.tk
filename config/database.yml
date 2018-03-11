@@ -3,5 +3,7 @@ development:
   database: db.sqlite3
 
 production:
-  adapter: sqlite3
-  database: data/db-production.sqlite3
+  adapter: postgresql
+  url: <%= ENV['DATABASE_URL'] %>
+  pool: 5
+  timeout: 5000
