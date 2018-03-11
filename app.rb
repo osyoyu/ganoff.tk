@@ -7,7 +7,7 @@ end
 
 class GanoffTk < Sinatra::Base
   get '/' do
-    redirect '/index.html'
+    send_file File.expand_path('index.html', settings.public_folder)
   end
 
   get '/results' do
